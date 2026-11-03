@@ -1,8 +1,6 @@
 module github.com/Azure/terraform
 
-go 1.22.0
-
-toolchain go1.22.5
+go 1.24
 
 require (
 	github.com/Azure/terraform-module-test-helper v0.26.0
@@ -60,7 +58,7 @@ require (
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/klauspost/compress v1.15.11 // indirect
+	github.com/klauspost/compress v1.18.7 // indirect
 	github.com/lonegunmanb/tfmodredirector v0.1.0 // indirect
 	github.com/magodo/hclgrep v0.0.0-20220303061548-1b2b24c7caf6 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
